@@ -63,7 +63,7 @@ open class SwiftSignatureView: UIView {
     /**
     The UIImage representation of the signature. Read only.
     */
-    fileprivate(set) open var signature:UIImage?
+    open var signature:UIImage?
     
     // MARK: Public Methods
     open func clear() {
